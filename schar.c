@@ -3,9 +3,9 @@
 int main()
 {
     char    str[100];
-    int countDigits,countAlphabet,countSpecialChar,countSpaces;
+    int countSpecialChar;
     int counter;
-    countDigits=countAlphabet=countSpecialChar=countSpaces=0;
+countSpecialChar=countSpaces=0;
  
     printf("Enter a string: ");
     gets(str);
@@ -15,15 +15,10 @@ int main()
  
         if(str[counter]>='0' && str[counter]<='9')
             countDigits++;
-        else if((str[counter]>='A' && str[counter]<='Z')||(str[counter]>='a' && str[counter]<='z'))
-            countAlphabet++;
-        else if(str[counter]==' ')
-            countSpaces++;
-        else
-            countSpecialChar++;
+        
     }
  
-    printf("\nDigits: %d \nAlphabets: %d \nSpaces: %d \nSpecial Characters: %d",countDigits,countAlphabet,countSpaces,countSpecialChar);
+    printf("\nDigits: %d \nAlphabets: %d \nSpaces: %d \nSpecial Characters: %d",countSpecialChar);
  
     return 0;
 }
