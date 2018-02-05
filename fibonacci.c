@@ -1,12 +1,12 @@
 #include <stdio.h>
-int main()
+void main()
 {
     int i, n, t1 = 0, t2 = 1, nt;
 
     printf("Enter the number of terms: ");
     scanf("%d", &n);
 
-    printf("Fibonacci Series: ");
+    printf("Fibonacci Series");
 
     for (i = 1; i <= n; ++i)
     {
