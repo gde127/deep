@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main()
 {
-  int x = 10, y = 5;
+  int a,b ;
  
   
-  x = x + y;  
-  y = x - y;  
-  x = x - y;  
+  a= a+ b;  
+  b= a - b;  
+  a = a - b;  
  
-  printf("After Swapping: x = %d, y = %d", x, y);
+  printf("After Swapping: x = %d, y = %d", a, b);
  
-  re
+  return(0);
+}
