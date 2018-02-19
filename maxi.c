@@ -4,7 +4,7 @@
 
 int main()
 {
-    int arr[MAX_SIZE];
+    int a[MAX_SIZE];
     int i, max, min, size;
 
  
@@ -15,12 +15,12 @@ int main()
     printf("Enter elements in he array: ");
     for(i=0; i<size; i++)
     {
-        scanf("%d", &arr[i]);
+        scanf("%d", &a[i]);
     }
 
 
     
-    max = arr[0];
+    max = a[0];
    
 
     
@@ -30,7 +30,7 @@ int main()
        
         if(arr[i] > max)
         {
-            max = arr[i];
+            max = a[i];
         }
 
 
